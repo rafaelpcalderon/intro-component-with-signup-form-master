@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login form</title>
+  <link rel="stylesheet" href="/src/style.css">
+  <link rel="stylesheet" href="/src/responsible.css">
+  <link rel="stylesheet" href="/src/reset.css">
+  <link rel="shortcut icon" href="/src/images/favicon-32x32.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div class="left-side">
+      <div class="introduction">
+        <h1 class="title">Learn to code by watching others</h1>
+        <p class="paragraph">See how experienced developers solve problems in real-time.
+          Watching scripted tutorials is great, but understanding how developers
+          thinks is invaluabe.
+        </p>
+      </div>
+    </div>
+    <div class="right-side">
+      <div class="free-trial">
+        <p class="try-for-free">Try it free 7 days
+          <span class="free-days">then $20/mo.thereafter</span></p>
+      </div>
+      <div class="container">
+        <div class="inputs">
+          <input type="text" class="name" id="nome" placeholder="Name">
+          <label for="nome" class="erro"></label>
+
+          <input type="text" class="last-name" id="sobrenome" placeholder="Last Name">
+          <label for="sobrenome" class="erro"></label>
+
+          <input type="email" class="email" id="e-mail" placeholder="Email Addres" required>
+          <label for="e-mail" class="erro"></label>
+
+          <input type="password" class="password" id="senha" placeholder="Password">
+          <label for="senha" class="erro"></label>
+        </div>
+        
+          <button onclick="checkInfo()">Claim your free trial</button>
+  
+        <div class="terms-and-services">
+          <p terms-alert>By clicking the button, you are agreeing to our <span class="terms-alert">Terms and
+              Services</span></p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script type="text/javascript" src="/src/index.js"></script>
+</body>
+
+</html>

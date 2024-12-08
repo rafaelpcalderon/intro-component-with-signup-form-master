@@ -1,0 +1,48 @@
+@media (max-width: 767px){
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .left-side{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .left-side .introduction{
+        width: 260px;
+    }
+
+    .left-side .introduction .title{
+        font-size: 30px;
+    }
+    
+    .left-side .introduction .paragraph{
+        text-align: center;
+    }
+
+    .right-side{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .free-trial,.container{
+        width: 70%;     
+    }
+
+    .right-side .terms-and-services{
+        width: 80%;
+    }
+    
+    button{
+        padding: 20px;
+    }
+}
